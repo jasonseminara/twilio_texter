@@ -3,11 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "private": "true",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gittheking/twilio_texter.git"
   },
   "author": "Bobby King",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gittheking/twilio_texter/issues"
+  },
+  "homepage": "https://github.com/gittheking/twilio_texter#readme",
   "dependencies": {
     "async": "^1.5.2",
     "cron": "^1.1.0",
